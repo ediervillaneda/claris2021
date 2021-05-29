@@ -3,14 +3,14 @@
     <div class="card-body">
       <h1 class="card-title">{{ time.tiempo }}</h1>
     </div>
-    <div class="card-text">{{ time.texto }}</div>
+    <div class="card-footer">{{ time.texto }}</div>
   </div>
 </template>
 
 <script>
 export default {
   name: "TimeItem",
-  props: ["time"]
+  props: ["time"],
 };
 </script>
 
